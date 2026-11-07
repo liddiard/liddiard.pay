@@ -55,7 +55,10 @@ body {
   background-attachment: fixed;
   color: var(--text);
   font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    system-ui,
+    -apple-system,
+    "Helvetica Neue",
+    Arial,
     sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -76,12 +79,10 @@ body {
 .avatar {
   width: 4.5rem;
   height: 4.5rem;
-  margin: 0 auto 1.125rem;
-  display: grid;
-  place-items: center;
+  margin: 0 auto 0.5rem;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 22px;
+  border-radius: 100%;
   box-shadow: var(--shadow);
 }
 
